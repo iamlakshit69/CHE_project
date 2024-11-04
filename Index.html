@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Land Resources Depletion</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#causes">Causes</a></li>
+            <li><a href="#effects">Effects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+        <div class="header-content">
+            <h1>Global Land Resources Depletion</h1>
+            <p>Understanding the Causes and Effects on Society and Biodiversity</p>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Causes of Depletion Section -->
+        <section id="causes" class="content-section">
+            <h2>Causes of Land Resource Depletion</h2>
+            <p>Global land resources are being depleted due to several factors:</p>
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1475139195209-c6343f17842f?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Deforestation" class="content-image">
+            </div>
+            <ul>
+                <li><strong>Deforestation:</strong> Clearing of forests for agriculture, urbanization, and logging leads to loss of biodiversity and impacts soil quality.</li>
+                <li><strong>Urban Expansion:</strong> The growth of cities and infrastructure leads to conversion of natural habitats into urban areas, affecting ecosystems.</li>
+                <li><strong>Agricultural Practices:</strong> Intensive farming, overgrazing, and monoculture crops exhaust soil nutrients and reduce land fertility.</li>
+                <li><strong>Climate Change:</strong> Extreme weather patterns and rising temperatures disrupt ecosystems and soil stability.</li>
+                <li><strong>Industrial Activities:</strong> Mining, extraction of natural resources, and pollution degrade land quality and contaminate soil.</li>
+            </ul>
+        </section>
+
+        <!-- Effects on Society and Biodiversity Section -->
+        <section id="effects" class="content-section">
+            <h2>Effects on Society and Biodiversity</h2>
+            <p>The depletion of land resources has profound effects:</p>
+            <div class="image-container">
+                <img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2021/09/02/thumbs/800x531/141321.jpg?v=1630581170" alt="Wildlife Loss" class="content-image">
+            </div>
+            <ul>
+                <li><strong>Loss of Biodiversity:</strong> Many species lose their natural habitats, leading to extinction and reduced genetic diversity.</li>
+                <li><strong>Soil Degradation:</strong> Poor soil quality results in lower crop yields, affecting food security and local economies.</li>
+                <li><strong>Water Scarcity:</strong> Depletion of land resources often impacts water sources, leading to scarcity and affecting human populations.</li>
+                <li><strong>Climate Impact:</strong> Loss of vegetation affects carbon storage, contributing to climate change and worsening environmental conditions.</li>
+                <li><strong>Social Impact:</strong> Resource depletion displaces communities, creating challenges for sustainable living and economic growth.</li>
+            </ul>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="content-section">
+            <h2>Contact Us</h2>
+            <p>If you have questions or would like to learn more, please reach out to us:</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Global Awareness Initiative. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Smooth Scrolling Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
